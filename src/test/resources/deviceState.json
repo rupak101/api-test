@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "ip": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    },
+    "brightness": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "name",
+    "ip",
+    "color",
+    "brightness"
+  ]
+}
