@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--Executing the uiTest cases in parallel with max thread count of 5-->
+<suite name="Micropsi Industries Test Suite" parallel="classes" thread-count="5">
+    <test name="Micropsi Industries API tests" parallel="methods">
+        <classes>
+            <class name="com.micropsi.test.SmartLightTest"/>
+        </classes>
+    </test>
+</suite>
